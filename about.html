@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Principie</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="header-nav">
+        <div class="logo">
+            <img src="Union.png" alt="Logo" class="logo-img">
+            <h3>Principie</h3>
+        </div>
+        <div class="nav desktop-only">
+            <nav>
+                <ul>
+                    <li><a href="index.html"><span class="hash">#</span>home</a></li>
+                    <li><a href="projects.html"><span class="hash">#</span>works</a></li>
+                    <li><a href="about.html" class="active"><span class="hash">#</span>about-me</a></li>
+                    <li><a href="index.html#contacts"><span class="hash">#</span>contacts</a></li>
+                    <li><a href="#">EN <span class="hash">v</span></a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="burger-icon" onclick="toggleMenu()">
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </div>
+
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-header">
+            <div class="logo">
+                <img src="Union.png" alt="Logo">
+                <h3>Principie</h3>
+            </div>
+            <div class="close-icon" onclick="toggleMenu()">X</div>
+        </div>
+        <ul class="mobile-links">
+            <li><a href="index.html"><span class="hash">#</span>home</a></li>
+            <li><a href="projects.html"><span class="hash">#</span>works</a></li>
+            <li><a href="about.html"><span class="hash">#</span>about-me</a></li>
+            <li><a href="index.html#contacts"><span class="hash">#</span>contacts</a></li>
+        </ul>
+    </div>
+
+    <div class="main-container" style="margin-top: 50px;">
+        <div class="page-title-box">
+            <h1 class="page-title"><span class="hash">/</span>about-me</h1>
+            <p class="page-desc">Who am I?</p>
+        </div>
+    </div>
+
+    <div class="main-container about-page-layout">
+        <div class="about-text">
+            <p>Hello, I'm Principie!</p>
+            <br>
+            <p>I'm a front-end developer based in Kigali, Rwanda. I can develop responsive websites from scratch and raise them into modern user-friendly web experiences.</p>
+            <br>
+            <p>Transforming my creativity and knowledge into a websites has been my passion for over a year. I have been helping various clients to establish their presence online. I always strive to learn about the newest technologies and frameworks.</p>
+        </div>
+        <div class="about-image">
+             <img src="Group 46.png" alt="Principie">
+             <div class="dots-decoration">.....<br>.....<br>.....<br>.....<br>.....</div>
+        </div>
+    </div>
+
+    <div class="main-container">
+        <div class="section-title">
+            <h2><span class="hash">#</span>skills</h2>
+        </div>
+
+        <div class="skills-container">
+            <div class="skills-right" style="width: 100%; justify-content: center; flex-wrap: wrap;">
+                <div class="skill-col">
+                    <div class="skill-box">
+                        <div class="skill-header">Languages</div>
+                        <div class="skill-list">Python JavaScript</div>
+                    </div>
+                </div>
+                <div class="skill-col">
+                    <div class="skill-box">
+                        <div class="skill-header">Other</div>
+                        <div class="skill-list">REST Jinja<br>EJS SCSS</div>
+                    </div>
+                </div>
+                <div class="skill-col">
+                    <div class="skill-box">
+                        <div class="skill-header">Tools</div>
+                        <div class="skill-list">Figma XFCE Arch<br>Linux<br>Git<br>VS CODE</div>
+                    </div>
+                </div>
+                 <div class="skill-col">
+                    <div class="skill-box">
+                        <div class="skill-header">Databases</div>
+                        <div class="skill-list">Mysql Postgresql<br>Sqlite</div>
+                    </div>
+                </div>
+                 <div class="skill-col">
+                    <div class="skill-box">
+                        <div class="skill-header">Frameworks</div>
+                        <div class="skill-list">TailwindCSS<br><br>Flask Express.js</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-container">
+        <div class="section-title">
+            <h2><span class="hash">#</span>my-fun-facts</h2>
+        </div>
+        <div class="fun-facts-container">
+            <div class="fact-tag">I like winter more than summer</div>
+            <div class="fact-tag">I support Chelsea and Barcelona</div>
+            <div class="fact-tag">I like <span class="white">pizza</span> and <span class="white">pasta</span></div>
+            <div class="fact-tag">I was in Kenya and <span class="white">Mauritius</span></div>
+            <div class="fact-tag">My favorite serie is Squid game</div>
+            <div class="fact-tag">I am still in school</div>
+        </div>
+    </div>
+
+    <div class="footer-line"></div>
+    <div class="footer">
+        <div class="footer-left">
+            <div class="footer-logo">
+                <img src="Union.png" width="16px"> <span>Principie</span> <span class="email-text">admin@principie.tech</span>
+            </div>
+            <p>Web designer and front-end developer</p>
+        </div>
+        <div class="footer-right">
+            <h3>Media</h3>
+            <div class="socials">
+                <img src="github.png" alt="gh"> 
+                <img src="figma.png" alt="fg"> 
+                <img src="discord.png" alt="dc">
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>© Copyright 2025. Made by Principie</p>
+    </div>
+
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById('mobileMenu');
+            menu.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

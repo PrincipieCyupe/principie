@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Principie</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="header-nav">
+        <div class="logo">
+            <img src="Union.png" alt="Logo" class="logo-img">
+            <h3>Principie</h3>
+        </div>
+        <div class="nav desktop-only">
+            <nav>
+                <ul>
+                    <li><a href="index.html"><span class="hash">#</span>home</a></li>
+                    <li><a href="projects.html" class="active"><span class="hash">#</span>works</a></li>
+                    <li><a href="about.html"><span class="hash">#</span>about-me</a></li>
+                    <li><a href="index.html#contacts"><span class="hash">#</span>contacts</a></li>
+                    <li><a href="#">EN <span class="hash">v</span></a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="burger-icon" onclick="toggleMenu()">
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </div>
+
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-header">
+            <div class="logo">
+                <img src="Union.png" alt="Logo">
+                <h3>Principie</h3>
+            </div>
+            <div class="close-icon" onclick="toggleMenu()">X</div>
+        </div>
+        <ul class="mobile-links">
+            <li><a href="index.html"><span class="hash">#</span>home</a></li>
+            <li><a href="projects.html"><span class="hash">#</span>works</a></li>
+            <li><a href="about.html"><span class="hash">#</span>about-me</a></li>
+            <li><a href="index.html#contacts"><span class="hash">#</span>contacts</a></li>
+        </ul>
+    </div>
+
+    <div class="main-container" style="margin-top: 50px;">
+        <div class="page-title-box">
+            <h1 class="page-title"><span class="hash">/</span>projects</h1>
+            <p class="page-desc">List of my projects</p>
+        </div>
+    </div>
+
+    <div class="main-container">
+        <div class="section-title">
+            <h2><span class="hash">#</span>complete-apps</h2>
+        </div>
+
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="P1.png" alt="Tegura">
+                <div class="card-tech">HTML CSS Python Flask</div>
+                <div class="card-body">
+                    <h3>Tegura Youth Iniative</h3>
+                    <p>Access all requirements to turn you idea into real business</p>
+                    <div class="card-buttons">
+                        <a href="https://tyi-w843.onrender.com/"><button class="two">Live <~></button></a>
+                        <a href="https://github.com/PrincipieCyupe/tyi"><button class="second">Source code >=</button></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="P2.png" alt="E-vura">
+                <div class="card-tech">HTML CSS Python Flask</div>
+                <div class="card-body">
+                    <h3>E-vura</h3>
+                    <p>Complete healthcare platform that enables you to record you medical records.</p>
+                    <div class="card-buttons">
+                        <a href="https://e-vura.onrender.com/"><button class="two">Live <~></button></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div style="height: 200px; border-bottom: 1px solid #ABB2BF; display:flex; align-items:center; justify-content:center; background:#282C33;">
+                   <span style="font-size: 40px;"></span> 
+                </div> 
+                <div class="card-tech">HTML CSS JavaScript</div>
+                <div class="card-body">
+                    <h3>Portfolio</h3>
+                    <p>You’re using it rn</p>
+                    <div class="card-buttons">
+                         <a href="https://github.com/PrincipieCyupe/portfolio"><button class="second">Github <~></button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-container">
+        <div class="section-title">
+            <h2><span class="hash">#</span>small-projects</h2>
+        </div>
+
+        <div class="projects-grid">
+            <div class="project-card small">
+                <div class="card-tech">Flask HTML</div>
+                <div class="card-body">
+                    <h3>Task Management App</h3>
+                    <p>Small website that perform CRUD operations</p>
+                    <a href="https://github.com/PrincipieCyupe/tma/tree/master"><button class="second">Github <~></button></a>
+                </div>
+            </div>
+
+            <div class="project-card small">
+                <div class="card-tech">HTML5 CSS JS</div>
+                <div class="card-body">
+                    <h3>MOMO Data Analysis</h3>
+                    <p>School project that was about analyzing the big data sets.</p>
+                    <a href="https://github.com/PrincipieCyupe/MOMO-data_analysis"><button class="second">Github <~></button></a>
+                </div>
+            </div>
+
+            <div class="project-card small">
+                <div class="card-tech">Figma</div>
+                <div class="card-body">
+                    <h3>Rwanda Connect</h3>
+                    <p>Figma landing page about service for Rwanda Connect platform</p>
+                    <a href="https://www.figma.com/proto/UX7T8buDnHLIUKKJJRYcbd/Rwanda-connect?node-id=0-1&t=VjCG3fXqVeKX1PZo-1"><button class="second">Figma <~></button></a>
+                </div>
+            </div>
+
+            <div class="project-card small">
+                <div class="card-tech">Javascript CSS HTML</div>
+                <div class="card-body">
+                    <h3>Picker Game</h3>
+                    <p>Simple game that allows users to pick each other just for fun!</p>
+                    <a href="https://github.com/PrincipieCyupe/game"><button class="second">Github <~></button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-line"></div>
+    <div class="footer">
+        <div class="footer-left">
+            <div class="footer-logo">
+                <img src="Union.png" width="16px"> <span>Principie</span> <span class="email-text">admin@principie.tech</span>
+            </div>
+            <p>Web designer and front-end developer</p>
+        </div>
+        <div class="footer-right">
+            <h3>Media</h3>
+            <div class="socials">
+                <img src="github.png" alt="gh"> 
+                <img src="figma.png" alt="fg"> 
+                <img src="discord.png" alt="dc">
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>© Copyright 2025. Made by Principie</p>
+    </div>
+
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById('mobileMenu');
+            menu.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
